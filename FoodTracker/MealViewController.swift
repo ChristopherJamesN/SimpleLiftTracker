@@ -100,7 +100,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             cell.textLabel?.adjustsFontSizeToFitWidth = true
         
         } else {
-            // Set placeholder text
+            // Set placeholder text for the excercise description
             cell.textLabel?.text = "Placeholder for excercise description"
             meal?.details[indexPath.row] = (cell.textLabel?.text)!
             // Need to hide the add excercise description button at this stage, since the meal name needs to be added first.
